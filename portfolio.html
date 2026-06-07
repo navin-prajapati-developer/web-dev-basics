@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navin Prajapati</title>
+    <style>
+        body {
+            background-color: #1a1a2e;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 { color: #00ff88; }
+        p { color: lightgray; }
+        .skills {
+            background-color: #16213e;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        button {
+            background-color: #00ff88;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Navin Prajapati</h1>
+    <p>Aspiring Software Developer & AI Engineer</p>
+    <div class="skills">
+        <h2>My Skills</h2>
+        <p>Python • Java • SQL • Web Dev</p>
+        <p>B.Sc IT 2025</p>
+    </div>
+    <br>
+    <button onclick="showMessage()">
+        Hire Me!
+    </button>
+    <p id="msg"></p>
+    <script>
+        function showMessage() {
+            document.getElementById("msg").innerHTML =
+            "Thanks for visiting! Let's connect!";
+        }
+    </script>
+</body>
+</html>
