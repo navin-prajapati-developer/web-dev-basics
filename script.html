@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Basics</title>
+</head>
+<body>
+    <h1>JavaScript Basics</h1>
+    
+    <button onclick="sayHello()">Click Me!</button>
+    <button onclick="showAge()">Show Age</button>
+    <button onclick="changeColor()">Change Color</button>
+
+    <p id="message"></p>
+
+    <script>
+        function sayHello() {
+            document.getElementById("message").innerHTML = 
+            "Hello! My name is Navin!";
+        }
+
+        function showAge() {
+            let age = 22;
+            document.getElementById("message").innerHTML = 
+            "I am " + age + " years old!";
+        }
+
+        function changeColor() {
+            document.body.style.backgroundColor = "darkblue";
+            document.getElementById("message").innerHTML = 
+            "Color changed!";
+        }
+    </script>
+</body>
+</html>
